@@ -47,3 +47,41 @@
   margin-top: 30px;
 }
 /* Header design end */
+.my-failures {
+  height: 100vh;
+}
+.my-failures-container {
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.my-failures-img img {
+  margin-top: 100px;
+}
+.my-failures-txt h2 {
+  margin-top: 200px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.my-failures-txt p {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 20px;
+}
+.my-failures-txt ul {
+  margin-top: 10px;
+  list-style: url("images/green\ check\ mark.png");
+  margin-left: 20px;
+  color: 444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
